@@ -1,0 +1,87 @@
+/*this css*/
+*{
+    font-family: sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   background-color:azure; 
+}
+
+header{
+    background-color: beige;
+    border: 2px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin: 30px;
+    
+}
+
+.nav a:hover{
+    background-color: gold;
+}
+
+
+
+/*section*/
+.section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section p {
+    font-size: 65px;
+
+}
+
+.section button {
+    color: aliceblue;
+    font-size: 45px;
+    border-radius: 50px 50px;
+
+}
+
+.section button:hover{
+
+    background-color: aqua;
+}
+
+
+container{
+    margin-top: 30px;
+    display: flex;
+
+
+}
+
+
+ .card1 {
+    width: 350px;
+    height: 350px;
+}
+
+
+.card2 {
+    width: 350px;
+    height: 350px;
+}
+
+.card3{
+    width: 350px;
+    height: 350px;
+}
+
